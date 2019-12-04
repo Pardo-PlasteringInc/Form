@@ -1,3 +1,4 @@
+
 <?php
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
 $con=mysqli_connect('localhost','root','','FormularioEmpleados') or die ('error conecion con servidor');
@@ -11,3 +12,4 @@ mysqli_close($con);
         echo "Error sending message";
     }
 }
+?>
