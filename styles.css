@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background: #2f3542;
-  display: flex;
+  display: 100%;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
